@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyTitle>PLInvBatch</AssemblyTitle>
+    <AssemblyDescription>ProfitLab Invoice Nightly Batch Application</AssemblyDescription>
+    <AssemblyCompany>ProfitLab</AssemblyCompany>
+    <AssemblyProduct>PLInvBatch</AssemblyProduct>
+    <AssemblyVersion>7.0.75.0</AssemblyVersion>
+    <AssemblyFileVersion>7.0.75.0</AssemblyFileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PLInvBus">
+      <HintPath>PLInvBus.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
