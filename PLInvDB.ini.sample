@@ -1,0 +1,23 @@
+[Logging]
+WriteBatchProcesstoFile=true
+
+[Database]
+ConnectionString=Data Source=ServerName;Initial Catalog=DatabaseName;Integrated Security=true
+
+[Email]
+SMTPServer=mail.company.com
+FromAddress=batch@company.com
+ToAddress=notifications@company.com
+
+[Reports]
+CostAllocNightlyReport=C:\Reports\CostAllocNightly.rpt
+CostAllocErrorReport=C:\Reports\CostAllocError.rpt
+NightlyReportLocation=C:\Reports\NightlyBatch.rpt
+
+[Printer]
+PrinterName=Default Printer
+
+[Processing]
+DefaultTimeout=300
+MaxRetries=3
+BatchSize=100
