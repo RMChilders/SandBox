@@ -1,0 +1,4 @@
+VBGROUP 5.0
+Project=..\PLInvDB\PLInvDB.vbp
+Project=PLInvBus.vbp
+StartupProject=PLInvBatch.vbp

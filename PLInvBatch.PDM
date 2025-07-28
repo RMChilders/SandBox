@@ -1,0 +1,426 @@
+[Root]
+Most Recent Package=PLInvBatch Standard Setup Package 03-08-01
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|ProfitLab]
+Icon1=PLInvBatch.exe
+Title1=Invoice Batch Beta 1.1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\MyProjects\PLInvBatch\Package
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Configure DAO ISAMs]
+Applicable=No
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Files Found]
+craxdrt.dll=C:\Download\CrystalReports\craxdrt.dll
+PLInvDB.dll=C:\MyProjects\PLInvDB\PLInvDB.dll
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Files Released]
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Missing Dependency Information]
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Files Added]
+C:\MyProjects\PLInvBatch\REPORTS\BillingExceptionReport.rpt=
+C:\MyProjects\PLInvBatch\REPORTS\NightlyBatchReport.rpt=
+C:\MyProjects\PLInvBatch\REPORTS\rs.ttx=
+C:\MyProjects\PLInvDB\PLInvDB.ini=
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Files Removed]
+c:\program files\common files\system\ado\msado25.tlb=
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Files In Project]
+C:\MyProjects\PLInvBatch\PLInvBatch.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\asycfilt.dll=Yes
+C:\WINNT\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\MyProjects\PLInvBus\PLInvBus.dll=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\MyProjects\PLInvDB\PLInvDB.dll=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\craxdrt.dll=Yes
+C:\MyProjects\PLInvBatch\REPORTS\BillingExceptionReport.rpt=Yes
+C:\MyProjects\PLInvBatch\REPORTS\NightlyBatchReport.rpt=Yes
+C:\MyProjects\PLInvBatch\REPORTS\rs.ttx=Yes
+C:\MyProjects\PLInvDB\PLInvDB.ini=Yes
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Configure Registry Files]
+Applicable=No
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Configure Remote Servers]
+Applicable=No
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Install Locations]
+C:\MyProjects\PLInvBatch\PLInvBatch.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\MyProjects\PLInvBus\PLInvBus.dll=$(AppPath)
+C:\Download\CrystalReports\craxdrt.dll=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\MyProjects\PLInvDB\PLInvDB.dll=$(AppPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\craxdrt.dll=$(WinSysPath)
+C:\MyProjects\PLInvBatch\REPORTS\BillingExceptionReport.rpt=$(AppPath)\reports\
+C:\MyProjects\PLInvBatch\REPORTS\NightlyBatchReport.rpt=$(AppPath)\reports\
+C:\MyProjects\PLInvBatch\REPORTS\rs.ttx=$(AppPath)\reports\
+C:\MyProjects\PLInvDB\PLInvDB.ini=$(AppPath)
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Configure Shared Files]
+Applicable=Yes
+C:\MyProjects\PLInvBatch\PLInvBatch.exe=No
+C:\MyProjects\PLInvBus\PLInvBus.dll=Yes
+C:\MyProjects\PLInvDB\PLInvDB.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.exe=No
+C:\MyProjects\PLInvBatch\REPORTS\BillingExceptionReport.rpt=No
+C:\MyProjects\PLInvBatch\REPORTS\NightlyBatchReport.rpt=No
+C:\MyProjects\PLInvBatch\REPORTS\rs.ttx=No
+C:\MyProjects\PLInvDB\PLInvDB.ini=No
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Distribution]
+Type=single
+Size=
+Title=nControl Invoice Batch Beta 1.1
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|IconGroups]
+Group0=ProfitLab nControl
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|ProfitLab nControl]
+Icon1=PLInvBatch.exe
+Title1=Invoice Batch Beta 1.1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|PLInvBatch Standard Setup Package 03-07-2001|Package]
+PackageFolder=C:\MyProjects\PLInvBatch\Package
+ProjectFolder=C:\MyProjects\PLInvBatch
+ServerSideCab=
+File1=C:\MyProjects\PLInvBatch\Package\setup.exe
+File2=C:\MyProjects\PLInvBatch\Package\Setup.Lst
+File3=C:\MyProjects\PLInvBatch\Package\PLInvBatch.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|ProfitLab]
+Icon1=PLInvBatch.exe
+Title1=Invoice Batch Beta 1.1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\MyProjects\PLInvBatch\Package
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Configure DAO ISAMs]
+Applicable=No
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Files Found]
+BillingExceptionReport.rpt=C:\Projects\UserInterface\vbcode\BatchTest\Reports\BillingExceptionReport.rpt
+craxdrt.dll=C:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll
+PLInvDB.dll=C:\Projects\UserInterface\vbcode\database\PLInvDB.dll
+sscsdk80.dll=C:\Program Files\Seagate Software\Shared\sscsdk80.dll
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Files Released]
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Missing Dependency Information]
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Out-of-Date Dependency Information]
+C:\WINNT\system32\scrrun.dll=
+C:\WINNT\SYSTEM32\MSCOMCT2.OCX=
+C:\WINNT\SYSTEM32\Mscomctl.ocx=
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Files Added]
+billingexceptionreport.rpt=
+nightlybatchreport.rpt=
+rs.ttx=
+plinvdb.ini=
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Files Removed]
+c:\program files\common files\system\ado\msado25.tlb=
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\asycfilt.dll=Yes
+C:\WINNT\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\WINNT\system32\mscomct2.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Projects\UserInterface\vbcode\BatchTest\PLInvBatch.exe=Yes
+C:\Projects\UserInterface\vbcode\business\PLInvBus.dll=Yes
+C:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll=Yes
+C:\Projects\UserInterface\vbcode\database\PLInvDB.dll=Yes
+C:\Projects\UserInterface\vbcode\BatchTest\Reports\BillingExceptionReport.rpt=Yes
+C:\Projects\UserInterface\vbcode\BatchTest\Reports\NightlyBatchReport.rpt=Yes
+C:\Projects\UserInterface\vbcode\BatchTest\Reports\rs.ttx=Yes
+C:\Projects\UserInterface\vbcode\database\PLInvDB.ini=Yes
+C:\WINNT\SYSTEM32\Implode.dll=Yes
+C:\WINNT\SYSTEM32\Crpaig80.dll=Yes
+C:\Program Files\Seagate Software\Shared\sscsdk80.dll=Yes
+C:\WINNT\SYSTEM32\P2smon.dll=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado25.tlb=No
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Configure Registry Files]
+Applicable=No
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Configure Remote Servers]
+Applicable=No
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Install Locations]
+C:\MyProjects\PLInvBatch\PLInvBatch.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\MyProjects\PLInvBus\PLInvBus.dll=$(AppPath)
+C:\Download\CrystalReports\craxdrt.dll=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\MyProjects\PLInvDB\PLInvDB.dll=$(AppPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\craxdrt.dll=$(WinSysPath)
+C:\MyProjects\PLInvBatch\REPORTS\BillingExceptionReport.rpt=$(AppPath)\reports\
+C:\MyProjects\PLInvBatch\REPORTS\NightlyBatchReport.rpt=$(AppPath)\reports\
+C:\MyProjects\PLInvBatch\REPORTS\rs.ttx=$(AppPath)\reports\
+C:\MyProjects\PLInvDB\PLInvDB.ini=$(AppPath)
+C:\Projects\UserInterface\vbcode\BatchTest\PLInvBatch.exe=$(AppPath)
+C:\Projects\UserInterface\vbcode\business\PLInvBus.dll=$(AppPath)
+C:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll=$(WinSysPath)
+C:\Projects\UserInterface\vbcode\database\PLInvDB.dll=$(AppPath)
+C:\Projects\UserInterface\vbcode\BatchTest\Reports\BillingExceptionReport.rpt=$(AppPath)\Reports
+C:\Projects\UserInterface\vbcode\BatchTest\Reports\NightlyBatchReport.rpt=$(AppPath)\Reports
+C:\Projects\UserInterface\vbcode\BatchTest\Reports\rs.ttx=$(AppPath)\Reports
+C:\Projects\UserInterface\vbcode\database\PLInvDB.ini=$(AppPath)
+C:\WINNT\SYSTEM32\Implode.dll=$(AppPath)
+C:\WINNT\SYSTEM32\Crpaig80.dll=$(WinSysPath)
+C:\Program Files\Seagate Software\Shared\sscsdk80.dll=$(WinSysPath)
+C:\WINNT\SYSTEM32\P2smon.dll=$(WinSysPath)
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Configure Shared Files]
+Applicable=Yes
+C:\MyProjects\PLInvBatch\PLInvBatch.exe=No
+C:\MyProjects\PLInvBus\PLInvBus.dll=Yes
+C:\MyProjects\PLInvDB\PLInvDB.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.exe=Yes
+C:\MyProjects\PLInvBatch\REPORTS\BillingExceptionReport.rpt=No
+C:\MyProjects\PLInvBatch\REPORTS\NightlyBatchReport.rpt=No
+C:\MyProjects\PLInvBatch\REPORTS\rs.ttx=No
+C:\MyProjects\PLInvDB\PLInvDB.ini=No
+C:\Projects\UserInterface\vbcode\BatchTest\PLInvBatch.exe=No
+C:\Projects\UserInterface\vbcode\business\PLInvBus.dll=Yes
+C:\Projects\UserInterface\vbcode\database\PLInvDB.dll=Yes
+C:\Projects\UserInterface\vbcode\BatchTest\Reports\BillingExceptionReport.rpt=No
+C:\Projects\UserInterface\vbcode\BatchTest\Reports\NightlyBatchReport.rpt=No
+C:\Projects\UserInterface\vbcode\BatchTest\Reports\rs.ttx=No
+C:\Projects\UserInterface\vbcode\database\PLInvDB.ini=Yes
+C:\WINNT\SYSTEM32\Implode.dll=No
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Distribution]
+Type=single
+Size=
+Title=nControl Invoice Batch Beta 1.1 3/8/01
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|IconGroups]
+Group0=ProfitLab nControl
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|ProfitLab nControl]
+Icon1=PLInvBatch.exe
+Title1=Invoice Batch Beta 1.1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|PLInvBatch Standard Setup Package 03-08-2001|Package]
+PackageFolder=C:\MyProjects\PLInvBatch\Package
+ProjectFolder=C:\Projects\UserInterface\vbcode\BatchTest
+ServerSideCab=
+File1=C:\MyProjects\PLInvBatch\Package\setup.exe
+File2=C:\MyProjects\PLInvBatch\Package\Setup.Lst
+File3=C:\MyProjects\PLInvBatch\Package\PLInvBatch.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\MyProjects\PLInvBatch\Package
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Configure DAO ISAMs]
+Applicable=No
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Files Found]
+PLInvDB.dll=C:\MyProjects\PLInvDB\PLInvDB.dll
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Files Released]
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Missing Dependency Information]
+C:\WINNT\system32\craxdrt.dll=
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Out-of-Date Dependency Information]
+C:\WINNT\system32\MSCOMCT2.OCX=
+C:\WINNT\system32\Mscomctl.ocx=
+C:\WINNT\system32\scrrun.dll=
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Files Added]
+c:\myprojects\plinvbatch\reports\rs.ttx=
+c:\myprojects\plinvbatch\reports\nightlybatchreport.rpt=
+c:\myprojects\plinvbatch\reports\billingexceptionreport.rpt=
+c:\myprojects\plinvdb\plinvdb.ini=
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Files Removed]
+c:\program files\common files\system\ado\msado25.tlb=
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Files In Project]
+C:\MyProjects\PLInvBatch\PLInvBatch.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\MyProjects\PLInvBus\PLInvBus.dll=Yes
+C:\WINNT\system32\craxdrt.dll=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\MyProjects\PLInvDB\PLInvDB.dll=Yes
+C:\WINNT\system32\Mscomctl.ocx=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\MyProjects\PLInvBatch\REPORTS\rs.ttx=Yes
+C:\MyProjects\PLInvBatch\REPORTS\NightlyBatchReport.rpt=Yes
+C:\MyProjects\PLInvBatch\REPORTS\BillingExceptionReport.rpt=Yes
+C:\MyProjects\PLInvDB\PLInvDB.ini=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Configure Registry Files]
+Applicable=No
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Configure Remote Servers]
+Applicable=No
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Install Locations]
+C:\MyProjects\PLInvBatch\PLInvBatch.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\MyProjects\PLInvBus\PLInvBus.dll=$(AppPath)
+C:\WINNT\system32\craxdrt.dll=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\MyProjects\PLInvDB\PLInvDB.dll=$(AppPath)
+C:\WINNT\system32\Mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\MyProjects\PLInvBatch\REPORTS\rs.ttx=$(AppPath)\reports\
+C:\MyProjects\PLInvBatch\REPORTS\NightlyBatchReport.rpt=$(AppPath)\reports\
+C:\MyProjects\PLInvBatch\REPORTS\BillingExceptionReport.rpt=$(AppPath)\reports\
+C:\MyProjects\PLInvDB\PLInvDB.ini=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Configure Shared Files]
+Applicable=Yes
+C:\MyProjects\PLInvBatch\PLInvBatch.exe=No
+C:\MyProjects\PLInvBus\PLInvBus.dll=Yes
+C:\MyProjects\PLInvDB\PLInvDB.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.exe=No
+C:\MyProjects\PLInvBatch\REPORTS\rs.ttx=No
+C:\MyProjects\PLInvBatch\REPORTS\NightlyBatchReport.rpt=No
+C:\MyProjects\PLInvBatch\REPORTS\BillingExceptionReport.rpt=No
+C:\MyProjects\PLInvDB\PLInvDB.ini=Yes
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Distribution]
+Type=single
+Size=
+Title=ProfitLab - Invoice Batch version 1.1.9
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|Package]
+PackageFolder=C:\MyProjects\PLInvBatch\Package
+ProjectFolder=C:\MyProjects\PLInvBatch
+ServerSideCab=
+File1=C:\MyProjects\PLInvBatch\Package\setup.exe
+File2=C:\MyProjects\PLInvBatch\Package\Setup.Lst
+File3=C:\MyProjects\PLInvBatch\Package\PLInvBatch.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|IconGroups]
+Group0=ProfitLab nControl
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|PLInvBatch Standard Setup Package 03-08-01|ProfitLab nControl]
+Icon1=PLInvBatch.exe
+Title1=Invoice Batch version 1.1.9
+StartIn1=$(AppPath)
+Key1=Icon1

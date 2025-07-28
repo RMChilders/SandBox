@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[PLInvBatch.vbp]
+SCC_Aux_Path =\\gvl-devedi\vss\,
+SCC_Project_Name ="$/ProfitLab_Release/InvoiceBatch/Version 7/PLinvBatch", PIBBAAAA
